@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url(./horror\ bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 30px;
+
+}
+
+ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+}
+
+.title{
+    font-family: 'Butcherman', system-ui;   
+    color: darkred;
+    font-size: 20px;
+
+}   
+
+.titlecon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nosifer', sans-serif;
+    color: darkred;
+    text-align: center;
+    font-size: 80px;
+    padding: 10px;
+}
+
+.defcon{
+    text-indent: 50px;
+    word-spacing: 5px;
+    color: red;
+    margin: 50px 40px 50px 40px;
+    text-align: justify;
+    font-family: 'Eater', serif;
+    backdrop-filter: blur(50px);
+    border: red 2px solid;
+    border-radius: 5px;
+    padding: 30px;
+}
